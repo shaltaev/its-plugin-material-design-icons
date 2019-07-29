@@ -1,6 +1,6 @@
 {
     "name": "its-plugin-material-design-icons",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "description": "Plugin for icons-to-sprite, extractor for material-design-icons",
     "main": "./dist/index.js",
     "types": "./types/index.d.ts",
