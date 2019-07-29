@@ -1,0 +1,31 @@
+{
+    "name": "its-plugin-material-design-icons",
+    "version": "1.0.0",
+    "description": "Plugin for icons-to-sprite, extractor for material-design-icons",
+    "main": "./dist/index.js",
+    "types": "./types/index.d.ts",
+    "scripts": {
+        "build": "rm -r ./dist/* && rm -r ./types/* && tsc"
+    },
+    "author": "shaltaev <shaltaev.gleb@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "tslint": "^5.18.0",
+        "tslint-config-prettier": "^1.18.0",
+        "tslint-microsoft-contrib": "^6.2.0",
+        "@types/node": "^12.6.8",
+        "typescript": "^3.5.3"
+    },
+    "dependencies": {
+        "icons-to-sprite": "^0.0.12",
+        "material-design-icons": "^3.0.1"
+    },
+    "bugs": {
+        "url": "https://github.com/shaltaev/its-plugin-material-design-icons/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/shaltaev/its-plugin-material-design-icons.git"
+    },
+    "homepage": "https://github.com/shaltaev/its-plugin-material-design-icons#readme"
+}
