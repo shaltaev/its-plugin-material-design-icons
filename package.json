@@ -5,15 +5,20 @@
     "main": "./dist/index.js",
     "types": "./types/index.d.ts",
     "scripts": {
-        "build": "rm -r ./dist/* && rm -r ./types/* && tsc"
+        "build": "rm -r ./dist/* && rm -r ./types/* && tsc",
+        "test": "jest"
     },
     "author": "shaltaev <shaltaev.gleb@gmail.com>",
     "license": "MIT",
     "devDependencies": {
+        "@types/jest": "^24.0.16",
+        "@types/node": "^12.6.8",
+        "jest": "^24.8.0",
+        "jest-atomic": "^1.0.2",
+        "ts-jest": "^24.0.2",
         "tslint": "^5.18.0",
         "tslint-config-prettier": "^1.18.0",
         "tslint-microsoft-contrib": "^6.2.0",
-        "@types/node": "^12.6.8",
         "typescript": "^3.5.3"
     },
     "dependencies": {
